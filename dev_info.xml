@@ -35,15 +35,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
               android:title="@string/social_header" >
 
         <PreferenceScreen
-            android:title="@string/AIMROM_web"
-    android:summary="@string/AIMROM_web_description"
-    android:icon="@drawable/ic_social_web" >
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="@string/AIMROM_web_link" />
-        </PreferenceScreen>
-
-        <PreferenceScreen
             android:title="@string/AIMROM_google_plus"
     android:summary="@string/AIMROM_google_plus_description"
     android:icon="@drawable/ic_social_google_plus" >
@@ -51,16 +42,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
                android:action="android.intent.action.VIEW"
                android:data="@string/AIMROM_google_plus_link" />
         </PreferenceScreen>
-
-        <PreferenceScreen
-            android:title="@string/AIMROM_telegram"
-    android:summary="@string/AIMROM_telegram_description"
-    android:icon="@drawable/ic_social_telegram" >
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="@string/AIMROM_telegram_link" />
-        </PreferenceScreen>
-
+   
         <PreferenceScreen
             android:title="@string/AIMROM_github"
     android:summary="@string/AIMROM_github_description"
@@ -72,7 +54,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
 </PreferenceCategory>
 
-
 <PreferenceCategory
               android:key="AIMROM_dev"
               android:title="@string/devs_header" >
@@ -83,25 +64,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     android:icon="@drawable/ic_devs_pc" >
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="https://plus.google.com/communities/111507505190229665939" />
-        </PreferenceScreen>
-
-       <PreferenceScreen
-            android:title="@string/dev_2"
-    android:summary="@string/dev2_description"
-    android:icon="@drawable/ic_devs_pc" >
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="https://plus.google.com/108470470067103585242" />
-        </PreferenceScreen>
-
- <PreferenceScreen
-            android:title="@string/dev_3"
-    android:summary="@string/dev3_description"
-    android:icon="@drawable/ic_devs_pc" >
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="https://forum.xda-developers.com/member.php?u=7550463" />
+               android:data="https://github.com/xyyx" />
         </PreferenceScreen>
 
 </PreferenceCategory>
